@@ -104,3 +104,8 @@
   padding: 6em 10em 4.5em 10em;
   background: #fffaf2;
 }
+
+.social {
+  display: flex;
+  justify-content: space-between;
+}
