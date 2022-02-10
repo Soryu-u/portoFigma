@@ -1,0 +1,106 @@
+.about__section {
+  padding: 6em 10em 7em 10em;
+}
+
+.section__head {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+
+  padding-bottom: 3em;
+
+  color: #333333;
+}
+
+.section__head3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #333333;
+
+  padding-bottom: 50px;
+}
+
+.about__content > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+
+  padding-bottom: 2em;
+
+  color: #333333;
+}
+
+.skills__section {
+  padding: 6em 10em 10.7em 10em;
+  background: #fffaf2;
+}
+
+.skills__block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills__photo {
+  height: 340px;
+  width: 350px;
+  object-fit: cover;
+}
+
+.td__head {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #333333;
+}
+
+.skills__table {
+  width: 60%;
+}
+
+.table__progress {
+  width: 70%;
+  height: 25px;
+  background: #f5d6ab;
+
+  position: relative;
+}
+
+.fill {
+  left: 0;
+  top: 0;
+  height: 25px;
+  position: absolute;
+  content: "";
+  background: #c66c49;
+}
+
+#ux {
+  width: 90%;
+}
+#ui {
+  width: 80%;
+}
+#front {
+  width: 65%;
+}
+
+.portfolio__section {
+  padding: 6em 10em 10.7em 10em;
+}
+
+.portfolio__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  padding: 6em 10em 4.5em 10em;
+  background: #fffaf2;
+}

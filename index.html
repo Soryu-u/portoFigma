@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="./src/css/style.css" />
     <link rel="stylesheet" href="./src/css/header.css" />
+    <link rel="stylesheet" href="./src/css/main.css" />
   </head>
   <body>
     <div class="page">
@@ -41,47 +42,55 @@
           </div>
         </div>
       </header>
-      <main class="main">
-        <div class="main__header">
-          <div class="header__img--effect"></div>
-          <img src="./src/img/bg.png" alt="" class="header__img" />
-          <div class="header__content">
-            <h1>Hi, It’s Théophile Seyrig</h1>
-            <p>Designer from Porto, Portugal</p>
-            <a href="#">Latest works</a>
-          </div>
+      <div class="main__header">
+        <div class="header__img--effect"></div>
+        <img src="./src/img/bg.png" alt="" class="header__img" />
+        <div class="header__content">
+          <h1>Hi, It’s Théophile Seyrig</h1>
+          <p>Designer from Porto, Portugal</p>
+          <a href="#">Latest works</a>
         </div>
+      </div>
+      <main class="main">
         <div class="about__section">
           <h2 class="section__head">About</h2>
-          <div class="adout__content">
-            Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero
-            phasellus tincidunt. Rhoncus, diam penatibus aliquet tellus, in
-            rutrum augue. Pellentesque senectus risus consectetur et sed purus
-            sed. Consectetur adipiscing elit. Egestas porttitor nulla nulla
-            egestas odio pharetra egestas aliquet mollis. Arcu, sed nisi, mi,
-            arcu libero phasellus tincidunt. Rhoncus, diam penatibus aliquet
-            tellus, in rutrum augue. Pellentesque senectus risus consectetur et
-            sed purus sed. Consectetur adipiscing elit. Egestas porttitor nulla
-            nulla egestas odio pharetra egestas aliquet mollis. diam penatibus
-            aliquet tellus, in rutrum augue. Pellentesque.
+          <div class="about__content">
+            <p>
+              Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero
+              phasellus tincidunt. Rhoncus, diam penatibus aliquet tellus, in
+              rutrum augue. Pellentesque senectus risus consectetur et sed purus
+              sed. Consectetur adipiscing elit. Egestas porttitor nulla nulla
+              egestas odio pharetra egestas aliquet mollis.
+            </p>
+            <p>
+              Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam
+              penatibus aliquet tellus, in rutrum augue. Pellentesque senectus
+              risus consectetur et sed purus sed. Consectetur adipiscing elit.
+              Egestas porttitor nulla nulla egestas odio pharetra egestas
+              aliquet mollis. diam penatibus aliquet tellus, in rutrum augue.
+              Pellentesque.
+            </p>
           </div>
         </div>
         <div class="skills__section">
           <h2 class="section__head">Skills</h2>
-          <img
-            src="./src/img/Profile Picture.png"
-            alt=""
-            class="skills__photo"
-          />
-          <div class="skills__table">
-            <table>
+
+          <div class="skills__block">
+            <img
+              src="./src/img/Profile Picture.png"
+              alt=""
+              class="skills__photo"
+            />
+            <table class="skills__table">
               <tr>
                 <td class="td__head">Profile</td>
                 <td>UI / UX Engineer, Front-end Developer</td>
               </tr>
               <tr>
                 <td class="td__head">UX Research</td>
-                <td></td>
+                <td class="table__progress">
+                  <div class="fill" id="ux"></div>
+                </td>
               </tr>
               <tr>
                 <td class="td__head">Tools</td>
@@ -89,7 +98,9 @@
               </tr>
               <tr>
                 <td class="td__head">UI Design</td>
-                <td></td>
+                <td class="table__progress">
+                  <div class="fill" id="ui"></div>
+                </td>
               </tr>
               <tr>
                 <td class="td__head">Tools</td>
@@ -97,7 +108,9 @@
               </tr>
               <tr>
                 <td class="td__head">Front-end Dev</td>
-                <td></td>
+                <td class="table__progress">
+                  <div class="fill" id="front"></div>
+                </td>
               </tr>
               <tr>
                 <td class="td__head">Tools</td>
@@ -108,14 +121,18 @@
         </div>
         <div class="portfolio__section">
           <h2 class="section__head">Portfolio</h2>
+          <h3 class="section__head3">UX Research</h3>
           <div class="portfolio__content">
             <div class="left__box">
-              <h3>UX Research</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac
                 dictum nibh nam odio cursus id. Diam massa semper a tincidunt
                 cursus ultricies lectus eget urna.
               </p>
+              <ul class="pagination">
+                <li></li>
+                <li></li>
+              </ul>
             </div>
             <div class="right__box">
               <div class="gallery">
