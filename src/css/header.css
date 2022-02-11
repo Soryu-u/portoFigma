@@ -1,3 +1,149 @@
+/* .header {
+  position: absolute;
+  height: 10vh;
+  width: 100%;
+
+  z-index: 1000;
+}
+
+.header__left {
+  display: flex;
+  justify-content: space-around;
+} */
+/* 
+.logo {
+  font-style: normal;
+  font-weight: bold;
+
+  font-size: 60px;
+
+  color: #ffffff;
+}
+
+.header__right {
+  display: none;
+} */
+/*
+.nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav__link {
+  padding: 24px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+.active {
+  font-weight: bold;
+}
+*/
+/* .main__header {
+  position: relative;
+}
+
+.header__img {
+  height: 30vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.header__img--effect {
+  content: "";
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  height: 30vh;
+  width: 100%;
+
+  background: rgba(198, 108, 73, 0.3);
+} */
+/*
+.header__content {
+  position: absolute;
+  bottom: 20vh;
+  left: 15%;
+}
+
+.header__content > a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-decoration-line: underline;
+
+  color: #ffffff;
+}
+
+.header__content > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  padding-bottom: 13vh;
+
+  color: #ffffff;
+}
+
+.header__content > h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 78px;
+
+  padding-bottom: 3vh;
+
+  color: #ffffff;
+} */
+
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pc ver 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
 .header {
   position: absolute;
   right: 0;
@@ -6,7 +152,7 @@
 
   display: flex;
 
-  padding-top: 6em;
+  padding-top: 10vh;
 
   z-index: 1000;
 }
@@ -80,7 +226,7 @@
 
 .header__content {
   position: absolute;
-  bottom: 240px;
+  bottom: 20vh;
   left: 15%;
 }
 
@@ -101,7 +247,7 @@
   font-size: 24px;
   line-height: 29px;
 
-  padding-bottom: 106px;
+  padding-bottom: 13vh;
 
   color: #ffffff;
 }
@@ -112,7 +258,7 @@
   font-size: 64px;
   line-height: 78px;
 
-  padding-bottom: 26px;
+  padding-bottom: 3vh;
 
   color: #ffffff;
 }
