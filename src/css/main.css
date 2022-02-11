@@ -1,5 +1,5 @@
 .about__section {
-  padding: 25px 35px 25px 35px;
+  padding: 23px 30px 15px 35px;
 }
 
 .section__head {
@@ -36,13 +36,13 @@
   font-size: 12px;
   line-height: 15px;
 
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 
   color: #333333;
 }
 
 .skills__section {
-  padding: 25px 35px 25px 35px;
+  padding: 25px 33px 5px 33px;
   background: #fffaf2;
 }
 
@@ -53,9 +53,10 @@
 }
 
 .skills__photo {
-  height: 224px;
-  width: 218px;
-  padding-bottom: 25px;
+  margin-top: 5px;
+  width: 224px;
+  height: 218px;
+  margin-bottom: 25px;
 }
 
 .td__head {
@@ -63,6 +64,8 @@
   font-weight: 600;
   font-size: 12px;
   line-height: 25px;
+
+  padding-bottom: 15px;
 
   color: #333333;
 }
@@ -73,6 +76,8 @@
   font-size: 12px;
   line-height: 25px;
 
+  padding-bottom: 15px;
+
   color: #333333;
 }
 
@@ -81,17 +86,25 @@
 }
 
 .table__progress {
-  width: 70%;
-  height: 25px;
-  background: #f5d6ab;
+  /* width: 70%; */
+  height: 18px;
 
   position: relative;
 }
+.fillbox {
+  position: absolute;
+  left: 0;
+  top: 0;
 
+  width: 100%;
+  content: "";
+  height: 18px;
+  background: #f5d6ab;
+}
 .fill {
   left: 0;
   top: 0;
-  height: 25px;
+  height: 18px;
   position: absolute;
   content: "";
   background: #c66c49;
