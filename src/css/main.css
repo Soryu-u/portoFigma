@@ -1,11 +1,10 @@
 .about__section {
-  padding: 25px 10% 25px 10%;
+  padding: 25px 35px 25px 35px;
 }
 
 .section__head {
   text-align: center;
   font-style: normal;
-  font-weight: bold;
 
   font-weight: 600;
 
@@ -32,6 +31,8 @@
 .about__content > p {
   font-style: normal;
   font-weight: normal;
+
+  text-align: justify;
   font-size: 12px;
   line-height: 15px;
 
@@ -41,7 +42,7 @@
 }
 
 .skills__section {
-  padding: 25px 10% 25px 10%;
+  padding: 25px 35px 25px 35px;
   background: #fffaf2;
 }
 
@@ -54,6 +55,7 @@
 .skills__photo {
   height: 224px;
   width: 218px;
+  padding-bottom: 25px;
 }
 
 .td__head {
@@ -106,7 +108,7 @@
 }
 
 .portfolio__section {
-  padding: 25px 10% 25px 10%;
+  padding: 25px 35px 25px 35px;
 }
 
 .portfolio__content {
@@ -165,14 +167,14 @@
 }
 
 .footer {
-  padding: 25px 10% 25px 10%;
+  position: relative;
+  padding: 25px 35px 25px 35px;
   background: #fffaf2;
 }
 
 .social {
   display: grid;
   grid-template-columns: 50% 50%;
-  /* justify-content: space-between; */
 }
 
 .social__item {
@@ -180,9 +182,9 @@
 }
 
 .footer > img {
-  display: none;
-  padding-bottom: 5%;
-  padding-left: 100%;
+  position: absolute;
+  right: 32px;
+  bottom: 35px;
 }
 
 .social__link {
@@ -195,12 +197,13 @@
   color: #333333;
 }
 
-@media (min-width: 900px) {
+@media screen and (min-width: 376px) {
   .about__section {
     padding: 6em 15% 7em 15%;
   }
 
   .section__head {
+    font-weight: bold;
     text-align: start;
     font-size: 24px;
     line-height: 29px;
@@ -313,7 +316,6 @@
     padding: 6em 15% 0 15%;
   }
   .footer > img {
-    display: block;
     padding-bottom: 5%;
     padding-left: 100%;
   }
