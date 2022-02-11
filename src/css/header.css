@@ -1,5 +1,6 @@
-/* .header {
+.header {
   position: absolute;
+  top: 39px;
   height: 10vh;
   width: 100%;
 
@@ -8,176 +9,26 @@
 
 .header__left {
   display: flex;
-  justify-content: space-around;
-} */
-/* 
+  justify-content: center;
+}
+
+.burger {
+  position: absolute;
+  left: 34px;
+  top: 8px;
+}
+
 .logo {
   font-style: normal;
   font-weight: bold;
 
-  font-size: 60px;
+  font-size: 24px;
 
   color: #ffffff;
 }
 
 .header__right {
   display: none;
-} */
-/*
-.nav__list {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.nav__link {
-  padding: 24px;
-
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-
-  color: #ffffff;
-}
-
-.active {
-  font-weight: bold;
-}
-*/
-/* .main__header {
-  position: relative;
-}
-
-.header__img {
-  height: 30vh;
-  width: 100%;
-  object-fit: cover;
-}
-
-.header__img--effect {
-  content: "";
-  position: absolute;
-
-  top: 0;
-  left: 0;
-
-  height: 30vh;
-  width: 100%;
-
-  background: rgba(198, 108, 73, 0.3);
-} */
-/*
-.header__content {
-  position: absolute;
-  bottom: 20vh;
-  left: 15%;
-}
-
-.header__content > a {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-
-  text-decoration-line: underline;
-
-  color: #ffffff;
-}
-
-.header__content > p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 29px;
-
-  padding-bottom: 13vh;
-
-  color: #ffffff;
-}
-
-.header__content > h1 {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 64px;
-  line-height: 78px;
-
-  padding-bottom: 3vh;
-
-  color: #ffffff;
-} */
-
-/* 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-pc ver 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*/
-
-.header {
-  position: absolute;
-  right: 0;
-
-  width: 100%;
-
-  display: flex;
-
-  padding-top: 10vh;
-
-  z-index: 1000;
-}
-
-.header__left {
-  display: flex;
-  width: 40%;
-}
-
-.logo {
-  position: absolute;
-  left: 15%;
-  color: #ffffff;
-
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
-}
-
-.header__right {
-  width: 60%;
-
-  display: flex;
-  justify-content: center;
 }
 
 .nav__list {
@@ -206,7 +57,7 @@ pc ver
 }
 
 .header__img {
-  height: 80vh;
+  height: 25vh;
   width: 100%;
   object-fit: cover;
 }
@@ -218,7 +69,7 @@ pc ver
   top: 0;
   left: 0;
 
-  height: 80vh;
+  height: 25vh;
   width: 100%;
 
   background: rgba(198, 108, 73, 0.3);
@@ -226,15 +77,18 @@ pc ver
 
 .header__content {
   position: absolute;
-  bottom: 20vh;
+  bottom: 6vh;
   left: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header__content > a {
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 13px;
+  line-height: 16px;
 
   text-decoration-line: underline;
 
@@ -244,10 +98,10 @@ pc ver
 .header__content > p {
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 13px;
+  line-height: 16px;
 
-  padding-bottom: 13vh;
+  padding-bottom: 3vh;
 
   color: #ffffff;
 }
@@ -255,10 +109,77 @@ pc ver
 .header__content > h1 {
   font-style: normal;
   font-weight: normal;
-  font-size: 64px;
-  line-height: 78px;
+  font-size: 20px;
+  line-height: 24px;
 
-  padding-bottom: 3vh;
+  padding-bottom: 2vh;
 
   color: #ffffff;
+}
+
+@media (min-width: 900px) {
+  .burger {
+    display: none;
+  }
+
+  .header {
+    right: 0;
+    display: flex;
+    padding-top: 10vh;
+  }
+
+  .header__left {
+    display: flex;
+    width: 40%;
+  }
+
+  .logo {
+    position: absolute;
+    left: 15%;
+
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .header__right {
+    width: 60%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .header__img {
+    height: 80vh;
+    width: 100%;
+  }
+
+  .header__img--effect {
+    height: 80vh;
+    width: 100%;
+  }
+
+  .header__content {
+    display: block;
+    bottom: 20vh;
+    left: 15%;
+  }
+
+  .header__content > a {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .header__content > p {
+    font-size: 24px;
+    line-height: 29px;
+
+    padding-bottom: 13vh;
+  }
+
+  .header__content > h1 {
+    font-size: 64px;
+    line-height: 78px;
+
+    padding-bottom: 3vh;
+  }
 }

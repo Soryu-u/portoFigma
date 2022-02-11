@@ -1,263 +1,24 @@
-/* .about__section {
-  padding: 6em 15% 7em 15%;
-}
-
-.section__head {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
-
-  padding-bottom: 3em;
-
-  color: #333333;
-}
-
-.section__head3 {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
-
-  color: #333333;
-
-  padding-bottom: 50px;
-}
-
-.about__content > p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
-
-  padding-bottom: 2em;
-
-  color: #333333;
-}
-
-.skills__section {
-  padding: 6em 15% 7em 15%;
-  background: #fffaf2;
-}
-
-.skills__block {
-  display: flex;
-  justify-content: space-between;
-}
-
-.skills__photo {
-  height: 340px;
-  width: 350px;
-}
-
-.td__head {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
-
-  color: #333333;
-}
-
-.skills__table {
-  width: 60%;
-}
-
-.table__progress {
-  width: 70%;
-  height: 25px;
-  background: #f5d6ab;
-
-  position: relative;
-}
-
-.fill {
-  left: 0;
-  top: 0;
-  height: 25px;
-  position: absolute;
-  content: "";
-  background: #c66c49;
-}
-
-#ux {
-  width: 90%;
-}
-#ui {
-  width: 80%;
-}
-#front {
-  width: 65%;
-}
-
-.portfolio__section {
-  padding: 6em 15% 7em 15%;
-}
-
-.portfolio__content {
-  display: flex;
-  justify-content: space-between;
-}
-
-.left__box {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 35%;
-}
-
-.left__box > p {
-  padding-top: 25px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
-
-  text-align: justify;
-
-  color: #333333;
-}
-
-
-.right__box {
-  width: 65%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-.column-one {
-  display: flex;
-  flex-direction: column;
-
-  justify-content: space-between;
-  padding: 10px;
-}
-.column-two {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding: 10px;
-}
-
-/* 
-.column-one > img {
-  margin: 8px;
-  width: 100%;
-}
-.column-two > img {
-  margin: 8px;
-  width: 100%;
-}
-
-.pagination {
-  display: flex;
-  width: 15%;
-  justify-content: space-between;
-}
-
-.footer {
-  padding: 6em 15% 7em 15%;
-  background: #fffaf2;
-}
-
-.social {
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-}
-
-.footer > img {
-  padding-top: 5%;
-  padding-left: 100%;
-}
-
-.social__link {
-  padding: 7px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-}
-.social__link > a {
-  color: #333333;
-} */
-
-/* 
-
-
-
-
-
-
-
-
-/* grid-box */
-
-/* .right__box {
-  width: 60%;
-  display: grid;
-  grid-template-columns: 60% 40%;
-}
-.column-one {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px;
-}
-.column-two {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px;
-} */
-
-/*
-
-
-
-
-
-pc ver 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*/
-
 .about__section {
-  padding: 6em 15% 7em 15%;
+  padding: 25px 10% 25px 10%;
 }
 
 .section__head {
+  text-align: center;
   font-style: normal;
   font-weight: bold;
+
+  font-weight: 600;
+
   font-size: 24px;
   line-height: 29px;
 
-  padding-bottom: 3em;
+  padding-bottom: 19px;
 
   color: #333333;
 }
 
 .section__head3 {
+  text-align: center;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -265,14 +26,14 @@ pc ver
 
   color: #333333;
 
-  padding-bottom: 50px;
+  padding-bottom: 15px;
 }
 
 .about__content > p {
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 12px;
+  line-height: 15px;
 
   padding-bottom: 2em;
 
@@ -280,31 +41,41 @@ pc ver
 }
 
 .skills__section {
-  padding: 6em 15% 7em 15%;
+  padding: 25px 10% 25px 10%;
   background: #fffaf2;
 }
 
 .skills__block {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
 
 .skills__photo {
-  height: 340px;
-  width: 350px;
+  height: 224px;
+  width: 218px;
 }
 
 .td__head {
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 12px;
+  line-height: 25px;
+
+  color: #333333;
+}
+
+.td__item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
   line-height: 25px;
 
   color: #333333;
 }
 
 .skills__table {
-  width: 60%;
+  width: 100%;
 }
 
 .table__progress {
@@ -335,11 +106,12 @@ pc ver
 }
 
 .portfolio__section {
-  padding: 6em 15% 7em 15%;
+  padding: 25px 10% 25px 10%;
 }
 
 .portfolio__content {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -347,25 +119,20 @@ pc ver
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 35%;
 }
 
 .left__box > p {
-  padding-top: 25px;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 12px;
+  line-height: 15px;
 
   text-align: justify;
 
   color: #333333;
 }
 
-/* flex-box */
-
 .right__box {
-  width: 65%;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -375,71 +142,190 @@ pc ver
   flex-direction: column;
 
   justify-content: space-between;
-  padding: 10px;
 }
 .column-two {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 10px;
 }
-
-/* grid-box */
-
-/* .right__box {
-  width: 60%;
-  display: grid;
-  grid-template-columns: 60% 40%;
-}
-.column-one {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px;
-}
-.column-two {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px;
-} */
 
 .column-one > img {
-  margin: 8px;
+  padding: 5px;
   width: 100%;
 }
 .column-two > img {
-  margin: 8px;
+  padding: 5px;
   width: 100%;
 }
 
 .pagination {
-  display: flex;
+  display: none;
   width: 15%;
   justify-content: space-between;
 }
 
 .footer {
-  padding: 6em 15% 7em 15%;
+  padding: 25px 10% 25px 10%;
   background: #fffaf2;
 }
 
 .social {
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /* justify-content: space-between; */
+}
+
+.social__item {
+  padding: 5px;
 }
 
 .footer > img {
-  padding-top: 5%;
+  display: none;
+  padding-bottom: 5%;
   padding-left: 100%;
 }
 
 .social__link {
-  padding: 7px;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 14px;
+  line-height: 17px;
 }
 .social__link > a {
   color: #333333;
+}
+
+@media (min-width: 900px) {
+  .about__section {
+    padding: 6em 15% 7em 15%;
+  }
+
+  .section__head {
+    text-align: start;
+    font-size: 24px;
+    line-height: 29px;
+
+    padding-bottom: 3em;
+  }
+
+  .section__head3 {
+    text-align: start;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+
+    padding-bottom: 50px;
+  }
+
+  .about__content > p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .skills__section {
+    padding: 6em 15% 7em 15%;
+  }
+
+  .skills__block {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .skills__photo {
+    height: 340px;
+    width: 350px;
+  }
+
+  .td__head {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .td__item {
+    font-size: 18px;
+    line-height: 25px;
+
+    padding: 20px;
+  }
+
+  .skills__table {
+    width: 60%;
+  }
+
+  .portfolio__section {
+    padding: 6em 15% 7em 15%;
+  }
+
+  .portfolio__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .left__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35%;
+  }
+
+  .left__box > p {
+    padding-top: 25px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .right__box {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .column-one {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .column-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+  }
+
+  .column-one > img {
+    margin: 8px;
+    width: 100%;
+  }
+  .column-two > img {
+    margin: 8px;
+    width: 100%;
+  }
+
+  .pagination {
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+  }
+  .footer {
+    padding: 6em 15% 0 15%;
+  }
+  .footer > img {
+    display: block;
+    padding-bottom: 5%;
+    padding-left: 100%;
+  }
+  .social {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .social__link {
+    padding: 7px;
+    font-size: 18px;
+    line-height: 22px;
+  }
 }
