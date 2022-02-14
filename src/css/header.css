@@ -37,7 +37,7 @@
 }
 
 .nav__link {
-  padding: 24px;
+  padding: 30px;
 
   font-style: normal;
   font-weight: normal;
@@ -123,7 +123,7 @@
   .header {
     right: 0;
     display: flex;
-    padding-top: 10vh;
+    padding-top: 60px;
   }
 
   .header__left {
@@ -133,7 +133,7 @@
 
   .logo {
     position: absolute;
-    left: 15%;
+    left: 165px;
 
     font-size: 24px;
     line-height: 29px;
@@ -147,21 +147,21 @@
   }
 
   .header__img {
-    height: 80vh;
+    height: 768px;
     width: 100%;
 
     object-fit: cover;
   }
 
   .header__img--effect {
-    height: 80vh;
+    height: 768px;
     width: 100%;
   }
 
   .header__content {
     display: block;
-    bottom: 20vh;
-    left: 15%;
+    bottom: 240px;
+    left: 165px;
   }
 
   .header__content > a {
@@ -173,13 +173,13 @@
     font-size: 24px;
     line-height: 29px;
 
-    padding-bottom: 13vh;
+    padding-bottom: 106px;
   }
 
   .header__content > h1 {
     font-size: 64px;
     line-height: 78px;
 
-    padding-bottom: 3vh;
+    padding-bottom: 26px;
   }
 }

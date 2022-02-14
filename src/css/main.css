@@ -65,7 +65,7 @@
   font-size: 12px;
   line-height: 25px;
 
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 
   color: #333333;
 }
@@ -84,9 +84,11 @@
 .skills__table {
   width: 100%;
 }
+.skills__tableHead {
+  padding-bottom: 25px;
+}
 
 .table__progress {
-  /* width: 70%; */
   height: 18px;
 
   position: relative;
@@ -141,6 +143,7 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
+  padding-bottom: 15px;
 
   text-align: justify;
 
@@ -203,8 +206,20 @@
 .social__link {
   font-style: normal;
   font-weight: normal;
+
+  padding-bottom: 20px;
   font-size: 14px;
   line-height: 17px;
+}
+.social__contacts {
+  font-style: normal;
+  font-weight: normal;
+  padding-bottom: 5px;
+  font-size: 14px;
+  line-height: 17px;
+}
+.social__contacts > a {
+  color: #333333;
 }
 .social__link > a {
   color: #333333;
@@ -212,7 +227,7 @@
 
 @media screen and (min-width: 376px) {
   .about__section {
-    padding: 6em 15% 7em 15%;
+    padding: 93px 166px 115px 166px;
   }
 
   .section__head {
@@ -230,15 +245,17 @@
     font-size: 18px;
     line-height: 25px;
 
-    padding-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 45px;
   }
 
   .about__content > p {
+    padding-bottom: 30px;
     font-size: 18px;
     line-height: 30px;
   }
   .skills__section {
-    padding: 6em 15% 7em 15%;
+    padding: 93px 166px 120px 166px;
   }
 
   .skills__block {
@@ -261,15 +278,21 @@
     font-size: 18px;
     line-height: 25px;
 
-    padding: 20px;
+    padding: 15px;
   }
-
+  .td__headItem {
+    font-size: 18px;
+    line-height: 25px;
+  }
   .skills__table {
-    width: 60%;
+    width: 57%;
+  }
+  .skills__tableHead {
+    padding-bottom: 50px;
   }
 
   .portfolio__section {
-    padding: 6em 15% 7em 15%;
+    padding: 93px 166px 110px 166px;
   }
 
   .portfolio__content {
@@ -282,11 +305,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 35%;
+    width: 45%;
   }
 
   .left__box > p {
-    padding-top: 25px;
+    width: 350px;
+    padding-top: 15px;
     font-size: 18px;
     line-height: 30px;
   }
@@ -326,20 +350,27 @@
     justify-content: space-between;
   }
   .footer {
-    padding: 6em 15% 0 15%;
+    position: relative;
+    padding: 90px 166px 110px 166px;
   }
   .footer > img {
-    padding-bottom: 5%;
-    padding-left: 100%;
+    position: absolute;
+    bottom: 70px;
+    right: 180px;
   }
   .social {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    margin-top: -30px;
+    width: 85%;
   }
 
   .social__link {
-    padding: 7px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .social__contacts {
     font-size: 18px;
     line-height: 22px;
   }
