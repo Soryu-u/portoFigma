@@ -1,5 +1,5 @@
-.about__section {
-  padding: 23px 30px 15px 35px;
+.section {
+  padding: 23px 30px 20px 35px;
 }
 
 .section__head {
@@ -42,7 +42,6 @@
 }
 
 .skills__section {
-  padding: 25px 33px 5px 33px;
   background: #fffaf2;
 }
 
@@ -76,7 +75,7 @@
   font-size: 12px;
   line-height: 25px;
 
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 
   color: #333333;
 }
@@ -87,10 +86,20 @@
 .skills__tableHead {
   padding-bottom: 25px;
 }
+.td__headItem {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 25px;
+
+  padding-bottom: px;
+
+  color: #333333;
+}
 
 .table__progress {
   height: 18px;
-
+  width: 70%;
   position: relative;
 }
 .fillbox {
@@ -120,10 +129,6 @@
 }
 #front {
   width: 65%;
-}
-
-.portfolio__section {
-  padding: 25px 35px 25px 35px;
 }
 
 .portfolio__content {
@@ -215,7 +220,7 @@
   font-style: normal;
   font-weight: normal;
   padding-bottom: 5px;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 17px;
 }
 .social__contacts > a {
@@ -225,9 +230,9 @@
   color: #333333;
 }
 
-@media screen and (min-width: 376px) {
-  .about__section {
-    padding: 93px 166px 115px 166px;
+@media screen and (min-width: 769px) {
+  .section {
+    padding: 93px 12vw 115px 12vw;
   }
 
   .section__head {
@@ -253,9 +258,6 @@
     padding-bottom: 30px;
     font-size: 18px;
     line-height: 30px;
-  }
-  .skills__section {
-    padding: 93px 166px 120px 166px;
   }
 
   .skills__block {
@@ -285,14 +287,10 @@
     line-height: 25px;
   }
   .skills__table {
-    width: 57%;
+    width: 50%;
   }
   .skills__tableHead {
     padding-bottom: 50px;
-  }
-
-  .portfolio__section {
-    padding: 93px 166px 110px 166px;
   }
 
   .portfolio__content {
@@ -355,13 +353,12 @@
   }
   .footer > img {
     position: absolute;
-    bottom: 70px;
     right: 180px;
   }
   .social {
     display: flex;
     justify-content: space-between;
-    margin-top: -30px;
+    margin-top: -25px;
     width: 85%;
   }
 
